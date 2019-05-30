@@ -1,0 +1,54 @@
+{
+  "strict": true,
+  "compilerOptions": {
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths"
+      }
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@main/*": [
+        "src/main/*"
+      ],
+      "@api/*": [
+        "src/main/api/*"
+      ],
+      "@core/*": [
+        "src/main/core/*"
+      ],
+      "@infra/*": [
+        "src/main/infra/*"
+      ],
+      "@shared/*": [
+        "src/main/shared/*"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@test/*": [
+        "src/test/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules/"
+  ]
+}

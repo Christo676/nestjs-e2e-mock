@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+*.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# MacOS
+.DS_Store
+
+# Compiled code
+dist/
+
+# Local Coverage Reports
+**/test/**/coverage/**
+
+# Configuration files
+datastore_nova-devl.json
+
+# VsCode
+.vscode
+
+# Gradle
+.gradle
